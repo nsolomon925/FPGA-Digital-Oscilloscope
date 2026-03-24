@@ -16,6 +16,7 @@ The design focuses on precise timing synchronization between the FPGA’s digita
 * **Real-Time VGA Visualization**: Engineered a 25MHz pixel clock and synchronization logic (`hsync`/`vsync`) to map 8-bit digital values to vertical Y-axis pixels across a 640-pixel horizontal buffer.
 * **Circular Data Buffer**: Implemented an internal memory buffer that stores 640 samples, allowing for continuous, flicker-free waveform updates at a 60Hz refresh rate.
 * **Hardware Verification**: Validated six critical, interdependent timing delays using an external oscilloscope to ensure sampling occurred during the stable "data-ready" window.
+* **Visual Verification**: Real-time waveform output and hardware integration results are documented in the [Design Report](docs/FPGA_VGA_Oscilloscope_Design_Report.pdf).
 
 ## Repository Structure
 * **`/src`**: Primary Verilog design file (`vga_oscilloscope.v`).
