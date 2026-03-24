@@ -20,7 +20,7 @@ The design focuses on precise timing synchronization between the FPGA’s digita
 ## Repository Structure
 * **`/src`**: Primary Verilog design file (`vga_oscilloscope.v`).
 * **`/sim`**: Simulation testbench (`vga_scope_tb.v`) used for timing verification.
-* **`/docs`**: Full technical documentation including the **Digital_Oscilloscope_System_Analysis.pdf**.
+* **`/docs`**: Full technical documentation including the **FPGA_VGA_Oscilloscope_Design_Report.pdf**.
 
 ## System Performance
 The system successfully bridges the gap between analog electrical signals and digital logic. By utilizing the AD7819 8-bit parallel data converter, we achieved real-time visualization of analog waveforms with minimal signal noise and high timing accuracy.
