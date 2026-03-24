@@ -31,7 +31,7 @@ The system successfully bridges the gap between analog electrical signals and di
 1.  **Hardware**: Interface the **AD7819 ADC** with the Basys 3 PMOD headers as defined in the source constraints.
 2.  **Synthesis**: Open the project in **Xilinx Vivado** and add the source files from `/src`.
 3.  **Implementation**: Generate the bitstream and program the **Artix-7 FPGA**.
-4.  **Display**: Connect a VGA monitor to the Basys 3 port to view the live analog signal.
+4.  **Documentation**: Reference **docs/FPGA_VGA_Oscilloscope_Design_Report.pdf** for detailed hardware schematics and timing analysis.
 
 ---
 *This project was developed as a collaborative engineering effort to demonstrate hardware-software integration and signal processing on FPGAs.*
